@@ -1,0 +1,56 @@
+form {
+  background-color: #B7D7DC;
+  max-width: 400px;
+  margin:auto;
+  margin-top: 2em;
+  padding: 20px;
+ border: 2px solid black ;
+ box-shadow:  0.2em 0.2em 0.2em black;
+ border-radius:2em; 
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+select{
+  width: 95%;
+}
+
+button {
+  width: 80%;
+  margin-left:2.5em;
+  padding: 10px 2px;
+  background-color: #0C505A;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+  opacity: 0.8;
+}
+
+[title="my-img"]{
+  padding-top:15px;
+  /* margin-top: px; */
+  border-radius: 50%;
+  height: 28px;
+  width: 30px;
+}
